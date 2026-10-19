@@ -1,0 +1,22 @@
+# Build output
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Claude local settings
+.claude/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+logs/

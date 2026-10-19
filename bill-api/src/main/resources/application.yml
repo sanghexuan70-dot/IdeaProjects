@@ -1,0 +1,10 @@
+server:
+  port: 8081          # 和 hello-api(8080) 错开
+
+spring:
+  application:
+    name: bill-api    # 服务名：注册到 Nacos 时就是这个名字
+    cloud:
+      nacos:
+        discovery:
+          server-addr: localhost:8848
